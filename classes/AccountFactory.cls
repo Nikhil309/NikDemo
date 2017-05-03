@@ -7,6 +7,7 @@
  * Version History:
  * Version    Developer Name    Date          Detail Features
  * 1.0        Twinkle Panjabi                 Intial Development
+ * 1.1        nikhil                          Intial Development
  **********************************************************************************/
 
  @isTest
@@ -52,6 +53,9 @@ public with sharing class AccountFactory {
         insert accounts;
         return accounts;
     }
+	
+	public void test(){
+	}
 
     /**
      * Update Account
